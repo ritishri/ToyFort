@@ -10,7 +10,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
-import troy from "../assets/troy.svg";
+// import troy from "../assets/troy.svg";
 
 function Navbar() {
   return (
@@ -109,7 +109,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-14 border-b-4 border-gray-100 p-2">
+      <div className="flex justify-center gap-14 border-b-4 pb-5 border-gray-100 p-8">
         <div className="relative group">
           <a className="bg-red-600 text-white px-8 py-2 rounded-full " href="#">
             Home
