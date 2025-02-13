@@ -8,9 +8,10 @@ import {
   faPinterest,
   faLinkedin,
   faWhatsapp,
+  
 } from "@fortawesome/free-brands-svg-icons";
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
-// import troy from "../assets/troy.svg";
+
 
 function Navbar() {
   return (
