@@ -47,6 +47,8 @@ function Navbar() {
         <a className="" href="https://www.threads.net/@toyfort/">
           <FontAwesomeIcon icon={faThreads} />
         </a>
+        <marquee >CALL US AT 8744055175 FOR BULK ORDERS OR ANY OTHER ASSISTANCE
+        </marquee>
       </div>
       <div className="flex flex-row gap-72 w-30">
         <img
