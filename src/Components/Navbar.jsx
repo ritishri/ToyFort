@@ -8,14 +8,12 @@ import {
   faPinterest,
   faLinkedin,
   faWhatsapp,
-  
 } from "@fortawesome/free-brands-svg-icons";
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 
-
 function Navbar() {
   return (
-    <div>
+    <div className="">
       <div className="bg-red-500 h-10 flex flex-row space-x-4 p-2 text-white font-semibold text-lg">
         <a className="" href="https://www.facebook.com/toyfort/">
           <FontAwesomeIcon icon={faFacebook} />
@@ -331,7 +329,7 @@ function Navbar() {
           </a>
 
           {/* Dropdown Content */}
-          <div className="absolute -left-1/2 w-[1100px] bg-white shadow-md rounded-md hidden group-hover:block z-10 p-5">
+          <div className="absolute left-[-10] w-[1100px] bg-white shadow-md rounded-md hidden group-hover:block z-10 p-5">
             <div className="flex">
               {/* Left Side  */}
               <div className="w-2/3 grid grid-cols-2 gap-4">
@@ -710,89 +708,87 @@ function Navbar() {
         </div>
 
         <div className="relative group">
-  <a className="bg-red-600 text-white px-8 py-2 rounded-full" href="#">
-    School Items
-  </a>
+          <a className="bg-red-600 text-white px-8 py-2 rounded-full" href="#">
+            School Items
+          </a>
 
-  {/* Dropdown Container */}
-  <div className="absolute right-0 w-[900px] bg-white shadow-md rounded-md hidden group-hover:block z-10 p-4">
-    <div className="flex">
-      
-      {/* Left Side - Text Section (Takes 2/3 width) */}
-      <div className="w-2/3 grid grid-cols-3 gap-2">
-        <p className="font-semibold text-black py-2">Lunch Box</p>
-        <p className="font-semibold text-black py-2">Water Bottles</p>
-        <p className="font-semibold text-black py-2">Pencil Cases & Pouches</p>
-        <p className="font-semibold text-black py-2">Study Tables</p>
-        <p className="font-semibold text-black py-2">Gift Sets</p>
+          {/* Dropdown Container */}
+          <div className="absolute right-0 w-[900px] bg-white shadow-md rounded-md hidden group-hover:block z-10 p-4">
+            <div className="flex">
+              {/* Left Side - Text Section (Takes 2/3 width) */}
+              <div className="w-2/3 grid grid-cols-3 gap-2">
+                <p className="font-semibold text-black py-2">Lunch Box</p>
+                <p className="font-semibold text-black py-2">Water Bottles</p>
+                <p className="font-semibold text-black py-2">
+                  Pencil Cases & Pouches
+                </p>
+                <p className="font-semibold text-black py-2">Study Tables</p>
+                <p className="font-semibold text-black py-2">Gift Sets</p>
 
-        <ul className="space-y-1">
-          <p className="font-semibold text-black py-2">Bags</p>
-          <li>
-            <a className="inline-block py-1 text-sm text-gray-500 hover:border-b-2 border-gray-500 cursor-pointer">
-              School Bags
-            </a>
-          </li>
-          <li>
-            <a className="inline-block py-1 text-sm text-gray-500 hover:border-b-2 border-gray-500 cursor-pointer">
-              Fancy Bags
-            </a>
-          </li>
-        </ul>
-      </div>
+                <ul className="space-y-1">
+                  <p className="font-semibold text-black py-2">Bags</p>
+                  <li>
+                    <a className="inline-block py-1 text-sm text-gray-500 hover:border-b-2 border-gray-500 cursor-pointer">
+                      School Bags
+                    </a>
+                  </li>
+                  <li>
+                    <a className="inline-block py-1 text-sm text-gray-500 hover:border-b-2 border-gray-500 cursor-pointer">
+                      Fancy Bags
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-      {/* Right Side - Image Section (Takes 1/3 width) */}
-      <div className="w-1/3 grid grid-cols-2 gap-2">
-        <div className="relative">
-          <img
-            src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64e7521580ee51-27478711-55016525.webp"
-            alt="Pram & Stroller"
-            className="w-40 h-28 object-cover"
-          />
-          <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 text-sm font-semibold text-start">
-            Pram & Stroller
-          </p>
+              {/* Right Side - Image Section (Takes 1/3 width) */}
+              <div className="w-1/3 grid grid-cols-2 gap-2">
+                <div className="relative">
+                  <img
+                    src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64e7521580ee51-27478711-55016525.webp"
+                    alt="Pram & Stroller"
+                    className="w-40 h-28 object-cover"
+                  />
+                  <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 text-sm font-semibold text-start">
+                    Pram & Stroller
+                  </p>
+                </div>
+
+                <div className="relative">
+                  <img
+                    src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64f86d5e1735a0-77038825-21768230.webp"
+                    alt="Bath & Skin Care"
+                    className="w-40 h-28 object-cover"
+                  />
+                  <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 text-sm text-start">
+                    Bath & Skin Care
+                  </p>
+                </div>
+
+                <div className="relative">
+                  <img
+                    src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64f8612b0507a0-81849579-16369615.webp"
+                    alt="Musical Toys"
+                    className="w-52 h-40 rounded-lg object-cover"
+                  />
+                  <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 font-semibold text-sm text-start">
+                    Musical Toys
+                  </p>
+                </div>
+
+                <div className="relative">
+                  <img
+                    src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64eda5751c0a73-90527865-14506973.webp"
+                    alt="Play Gym & Playmats"
+                    className="w-52 h-40 object-cover"
+                  />
+                  <p className="absolute bottom-0 w-full bg-opacity-60 text-white font-semibold px-2 py-1 text-sm text-start">
+                    Play Gym & Playmats
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="relative">
-          <img
-            src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64f86d5e1735a0-77038825-21768230.webp"
-            alt="Bath & Skin Care"
-            className="w-40 h-28 object-cover"
-          />
-          <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 text-sm text-start">
-            Bath & Skin Care
-          </p>
-        </div>
-
-        <div className="relative">
-          <img
-            src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64f8612b0507a0-81849579-16369615.webp"
-            alt="Musical Toys"
-            className="w-52 h-40 rounded-lg object-cover"
-          />
-          <p className="absolute bottom-0 w-full bg-opacity-60 text-white px-2 py-1 font-semibold text-sm text-start">
-            Musical Toys
-          </p>
-        </div>
-
-        <div className="relative">
-          <img
-            src="https://toyfort.s3.ap-south-1.amazonaws.com/category/category_64eda5751c0a73-90527865-14506973.webp"
-            alt="Play Gym & Playmats"
-            className="w-52 h-40 object-cover"
-          />
-          <p className="absolute bottom-0 w-full bg-opacity-60 text-white font-semibold px-2 py-1 text-sm text-start">
-            Play Gym & Playmats
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-       
 
         <div className="relative group">
           <a className="bg-red-600  text-white px-8 py-2 rounded-full" href="#">
