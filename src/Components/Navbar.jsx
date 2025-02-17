@@ -859,7 +859,7 @@ function Navbar() {
         </div>
 
         <div className="relative group">
-          <a className="bg-red-600 text-white px-8 py-2 rounded-full " href="#">
+          <a className="bg-red-600 text-white px-8 py-2 rounded-full " href="/contact">
             Contact Us
           </a>
         </div>
