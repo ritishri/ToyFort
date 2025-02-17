@@ -19,7 +19,7 @@ const brandImages = [
   "https://toyfort.s3.ap-south-1.amazonaws.com/nua-11.png",
   "https://toyfort.s3.ap-south-1.amazonaws.com/r-for-rabbit-18.png",
   "https://toyfort.s3.ap-south-1.amazonaws.com/funskool-12.png",
-  "	https://toyfort.s3.ap-south-1.amazonaws.com/mustela-13.png",
+  "https://toyfort.s3.ap-south-1.amazonaws.com/mustela-13.png",
   "https://toyfort.s3.ap-south-1.amazonaws.com/imc-toys-14.png",
   "https://toyfort.s3.ap-south-1.amazonaws.com/kriiddaank-15.png",
   "https://toyfort.s3.ap-south-1.amazonaws.com/imagi-make-16.png",
@@ -1054,7 +1054,7 @@ function Home() {
               </>
             )}
 
-            {/* Read More / Read Less Button */}
+            
             <div className="flex justify-center items-center mt-4">
               <button
                 className="px-4 py-2 bg-red-500 text-white rounded"
@@ -1072,37 +1072,3 @@ function Home() {
 
 export default Home;
 
-{
-  /* <div className="mt-20 ">
-        <div className="flex flex-col  items-center">
-          <h3 className="font-bold text-2xl font-sans tracking-wide">FAQs</h3>
-          <ExpandMoreIcon className="cursor-pointer mt-1" fontSize="large" />
-        </div>
-
-        <div className="m-3">
-          <hr/>
-          <p>Q: Why choose Toy Fort?</p>
-          <hr className=""/>
-          <span>
-            <p>
-              Ans: Toy Fort provides a convenient online shopping platform where
-              you can browse and purchase toys from the comfort of your own
-              home. We have toys and games not only for kids but for all age
-              groups, ensuring a joyful playtime experience for the whole
-              family.
-            </p>
-            <p>
-              You can find toys from leading brands in our store with the widest
-              range of toys for all age groups and interests. Toy Fort
-              collaborates with well-known and trusted brands to offer you
-              high-quality toys and products.
-            </p>
-            <p>
-              Toy Fort keeps up with the latest trends and ensures that the
-              newest and most popular toys are available in our collection.
-            </p>
-          </span>
-          <hr/>
-        </div>
-      </div> */
-}
