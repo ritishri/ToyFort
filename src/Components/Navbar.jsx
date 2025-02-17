@@ -45,7 +45,8 @@ function Navbar() {
         <a className="" href="https://www.threads.net/@toyfort/">
           <FontAwesomeIcon icon={faThreads} />
         </a>
-        <marquee >CALL US AT 8744055175 FOR BULK ORDERS OR ANY OTHER ASSISTANCE
+        <marquee>
+          CALL US AT 8744055175 FOR BULK ORDERS OR ANY OTHER ASSISTANCE
         </marquee>
       </div>
       <div className="flex flex-row gap-72 w-30">
@@ -324,7 +325,10 @@ function Navbar() {
 
         <div className="relative group">
           {/* Menu Button */}
-          <a className="bg-red-600 text-white px-6 py-2 rounded-full cursor-pointer">
+          <a
+            className="bg-red-600 text-white px-6 py-2 rounded-full cursor-pointer"
+            href="/books"
+          >
             Books
           </a>
 

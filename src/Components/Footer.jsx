@@ -19,14 +19,14 @@ function Footer() {
           <p className="text-bold text-black text-lg">Information</p>
           <div>
             <ul className="text-gray-500 mt-4">
-              <li className="m-2">About Us</li>
-              <li className="m-2">Terms & Conditions</li>
-              <li className="m-2">Shipping Policy</li>
-              <li className="m-2">
-                Privacy Policy page of Toy Fort
-                <br /> - Online toy Store
-              </li>
-              <li className="m-2">Help Center</li>
+              <a href="/about-us"><li className="m-2">About Us</li></a>
+              <a href="/terms-conditions"><li className="m-2">Terms & Conditions</li></a>
+              <a href="/shipping-policy"><li className="m-2">Shipping Policy</li></a>
+              <a href="/privacy-policy"><li className="m-2">Privacy Policy page of Toy
+                <br />
+                  Fort - Online toy Store
+              </li></a>
+              <a href="/help-center"><li className="m-2">Help Center</li></a>
             </ul>
           </div>
         </div>
