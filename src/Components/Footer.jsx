@@ -38,7 +38,7 @@ function Footer() {
               <li className="m-2">Home </li>
               <li className="m-2">Contact</li>
               <li className="m-2">Blog</li>
-              <li className="m-2">Write for us</li>
+              <a href="/write-for-us"><li className="m-2">Write for us</li></a>
             </ul>
           </div>
         </div>
